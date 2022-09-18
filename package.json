@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "migrate:init": "graphile-migrate init",
+        "migrate:reset": "graphile-migrate reset",
+        "migrate:status": "graphile-migrate status",
+        "migrate:migrate": "graphile-migrate migrate",
+        "migrate:commit": "graphile-migrate commit",
+        "migrate:watch": "graphile-migrate watch"
+    },
+    "dependencies": {
+        "graphile-migrate": "1.4.0"
+    }
+}
